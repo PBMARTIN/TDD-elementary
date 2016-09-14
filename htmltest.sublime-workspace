@@ -99,13 +99,13 @@
 	"build_varint": "",
 	"command_palette":
 	{
-		"height": 359.0,
+		"height": 400.0,
 		"last_filter": "package",
 		"selected_items":
 		[
 			[
 				"package",
-				"Package Control: List Packages"
+				"Package Control: Enable Package"
 			],
 			[
 				"brows",
@@ -124,7 +124,7 @@
 				"Preferences: Browse Packages"
 			]
 		],
-		"width": 485.0
+		"width": 317.0
 	},
 	"console":
 	{
@@ -150,10 +150,12 @@
 	},
 	"expanded_folders":
 	[
-		"/Users/Martin-Bao/Documents/HTMLtest"
+		"/Users/Martin-Bao/Documents/TDD-elementary"
 	],
 	"file_history":
 	[
+		"/Users/Martin-Bao/Library/Application Support/Sublime Text 3/Packages/User/Preferences.sublime-settings",
+		"/Users/Martin-Bao/Library/Application Support/Sublime Text 3/Installed Packages/Predawn.sublime-package",
 		"/Users/Martin-Bao/Documents/HTMLtest/03_rpn_calculator/rpnCalculatorSpec.js",
 		"/Users/Martin-Bao/Documents/HTMLtest/03_rpn_calculator/rpnCalculator.js",
 		"/Users/Martin-Bao/Documents/HTMLtest/03_rpn_calculator/testem.json",
@@ -172,7 +174,6 @@
 		"/Users/Martin-Bao/Desktop/js game of life/script/dropdown-menu.js",
 		"/Users/Martin-Bao/Desktop/js game of life/script/jquery-ui.js",
 		"/Users/Martin-Bao/Desktop/js game of life/script/jQuery.js",
-		"/Users/Martin-Bao/Library/Application Support/Sublime Text 3/Packages/User/Preferences.sublime-settings",
 		"/Users/Martin-Bao/Desktop/html css test/test.html",
 		"/Users/Martin-Bao/Library/Application Support/Sublime Text 3/Packages/User/Default (OSX).sublime-keymap",
 		"/Users/Martin-Bao/Desktop/html css test/htest",
@@ -246,13 +247,15 @@
 						],
 						"settings":
 						{
-							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax"
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
+							"translate_tabs_to_spaces": false,
+							"word_wrap": true
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 0,
+					"stack_index": 1,
 					"type": "text"
 				}
 			]
@@ -274,21 +277,22 @@
 						"selection":
 						[
 							[
-								3176,
-								3184
+								2681,
+								2681
 							]
 						],
 						"settings":
 						{
 							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
 							"tab_size": 2,
-							"translate_tabs_to_spaces": true
+							"translate_tabs_to_spaces": true,
+							"word_wrap": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 1865.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 1,
+					"stack_index": 0,
 					"type": "text"
 				}
 			]
@@ -322,7 +326,7 @@
 		"cols":
 		[
 			0.0,
-			0.458030936931,
+			0.52763484049,
 			1.0
 		],
 		"rows":
@@ -374,7 +378,7 @@
 		],
 		"width": 0.0
 	},
-	"selected_group": 0,
+	"selected_group": 1,
 	"settings":
 	{
 	},
@@ -382,7 +386,7 @@
 	"show_open_files": false,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 219.0,
+	"side_bar_width": 225.0,
 	"status_bar_visible": true,
 	"template_settings":
 	{

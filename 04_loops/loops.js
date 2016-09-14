@@ -36,7 +36,7 @@ function gridGenerator(rc) {
 }
 function join(array,delimiter='') {
 	output='';
-	for (i of array) {
+	for (var i of array) {
 		output += i+delimiter
 	}
 	if (output.slice(output.length-1,output.length)===delimiter){
@@ -46,7 +46,7 @@ function join(array,delimiter='') {
 }
 function paramify(obj) {
 	output="";
-	for (i of Object.keys(obj).sort()){
+	for (var i of Object.keys(obj).sort()){
 		output+=i+'='+obj[i]+'&';
 	}
 	return output.slice(0,output.length-1)
